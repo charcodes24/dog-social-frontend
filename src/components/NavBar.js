@@ -6,7 +6,8 @@ function NavBar() {
 
     return (
         <div>
-            
+           <Link>
+           </Link> 
         </div>
     )
 }
