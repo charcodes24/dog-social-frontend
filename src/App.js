@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import Profile from './components/Profile'
 import Meetups from './components/Meetups'
 import Login from './components/Login'
+import NewPostForm from './components/NewPostForm'
 
 
 function App() {
@@ -20,7 +21,9 @@ function App() {
         <Route path='/Meetups' >
           <Meetups />
         </Route>
-
+        <Route path='/NewPostForm' >
+          <NewPostForm />
+        </Route>
       </Switch>
       <NavBar />
     </div>
